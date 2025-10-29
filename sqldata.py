@@ -28,7 +28,8 @@ if email.endswith("@gmail.com"):
     cursor.execute(query, values)
     connection.commit()
 
-    print("✅ Data inserted successfully!")
+    print("Data inserted successfully!")
 else:
 
-    print("❌ Invalid email! Please enter a Gmail address (must end with @gmail.com).")
+    print("Invalid email! Please enter a Gmail address (must end with @gmail.com).")
+
