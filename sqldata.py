@@ -3,7 +3,7 @@ import mysql.connector
 connection = mysql.connector.connect(
     host='127.0.0.1',
     user='root',
-    password="khus",
+    password="manmohan",
     database="python_batch"
 )
 def show_row():
@@ -28,3 +28,4 @@ def show_row():
     print("All records displayed")
 
 show_row()
+
